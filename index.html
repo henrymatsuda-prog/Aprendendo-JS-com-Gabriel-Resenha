@@ -10,10 +10,25 @@
     
     <h1>Testando JS</h1>
 
-    <p id="mensagem">Abrir mensagem</p>
+    <div class="bloco">
+        <h2>Realizando alteração no HTML com JS</h2>
+        <p id="mensagem">Abrir mensagem</p>
+        <button onclick="revelarMensagem()">Revelar mensagem</button>
+        <br><br>
+    </div>
 
-    <button onclick="revelarMensagem()">Revelar mensagem</button>
+    <div class="bloco">
+        <h2> Testando alteração usando variáveis</h2>
+        <label for="nomeUsuario">Digite seu nome</label>
+        <input type="text" id="nomeUsuario">
+        <br><br>
+        <button onclick="mostrarNome()">Atualizar nome</button>
+        <br><br>
+
+        <p id="resultadoNome">Seu nome aparecerá aqui.</p>
+    </div>
 
     <script src="script.js"></script>
+
 </body>
 </html>
